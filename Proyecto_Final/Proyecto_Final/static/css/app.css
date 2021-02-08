@@ -1,0 +1,26 @@
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('/static/img/fondo.jpg');
+}
+
+.jumbotron {
+    background-color: rgb(155, 155, 155);
+    padding: 30px;
+    min-height: 300px !important;
+}
+
+.jumbotron #lead {
+    margin-top: 30px;
+}
+
+.form {
+    padding: 40px;
+    background-color: blue;
+}
+
+#form-group {
+    margin-left: 40px;
+}

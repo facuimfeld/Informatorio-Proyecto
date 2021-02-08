@@ -1,0 +1,30 @@
+{% extends "base.html" %} {% block title %} Iniciar Sesion {% endblock %}{% block content %}
+
+
+<div class="container-sm p-3 my-3 bg-primary text-white">
+
+    <div class="d-flex justify-content-center align-items-center container ">
+
+        <div class="row ">
+            <form>
+                <div class="form-group" style="width:170px;">
+                    <label for="nombre">Usuario:</label>
+                    <input class="form-control" id="nombre" type="text" name="nombre" />
+                </div>
+                <div class="form-group" style="width:170px;">
+                    <label for="apellido">Contraseña:</label>
+                    <input class="form-control" id="password" type="password" name="password" />
+                </div>
+
+
+
+
+
+                <button type="submit" class="btn btn-success" style="margin-top: 30px;">Registrarme</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
