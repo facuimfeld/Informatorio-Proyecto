@@ -15,17 +15,15 @@
                     <label for="apellido">Contraseña:</label>
                     <input class="form-control" id="password" type="password" name="password" />
                 </div>
-
-
-
-
-
-                <button type="submit" class="btn btn-success" style="margin-top: 30px;">Registrarme</button>
+                <button type="submit" class="btn btn-success" style="margin-top: 30px;">Iniciar sesion</button>
+                <div class="form-group" style="width:170px;">
+                    <p><h6>¿No estas registrado aun? Registrate <a href="{% url 'registro' %}"style="color:#FFFFFF;" > aqui </h6></a></p>
+                </div>
             </form>
         </div>
     </div>
 </div>
-import datetime
+
 
 
 {% endblock %}
