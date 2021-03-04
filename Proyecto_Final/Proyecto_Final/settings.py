@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Proyecto_Final',
+    'proyecto_web_servicios.apps.ProyectoWebServiciosConfig',
+    
 ]
 
 MIDDLEWARE = [
