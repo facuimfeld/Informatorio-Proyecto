@@ -9,14 +9,14 @@ class Servicio(models.Model):
 class Registro_cliente(models.Model):
     nombre = models.CharField(max_length=40,default='charfield')
     apellido = models.CharField(max_length=40, default='charfield')
-    telefono = models.IntegerField(default='integerfield')
+    telefono = models.CharField(max_length=8)
     direccion = models.CharField(max_length=50,default='charfield')
     email = models.EmailField()
 
 class Registro_servicios(models.Model):
     nombre = models.CharField(max_length=40,default='charfield')
     apellido = models.CharField(max_length=40,default='charfield')
-    telefono = models.IntegerField(default='integerfield')
+    telefono = models.CharField(max_length=8)
     direccion = models.CharField(max_length=50,default='charfield')
     email = models.EmailField(default='charfield')
     matricula = models.BooleanField(default='charfield')
