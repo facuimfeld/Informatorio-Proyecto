@@ -18,12 +18,15 @@ from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
 from proyecto_web_servicios import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home,name="home"),
     path('servicios/',views.servicios,name="servicios"),
     path('registro/',views.registro,name="registro"),
     path('iniciarsesion/',views.iniciar_sesion,name="iniciarsesion"),
+    path('quienes_somos/',views.quienes_somos,name="quienes_somos"),
+    path('buscar/',views.buscar,name="buscar"),
 ]
 
 if settings.DEBUG:
