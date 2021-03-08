@@ -25,7 +25,7 @@ SECRET_KEY = '!&!(=hsjbl@w=mpy)+2ibfn*pznp5%=(_v=k(t%y=42c*pn8t('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS =  [“Procfile.herokuapp.com”]
+ALLOWED_HOSTS =  [“proyectolou.herokuapp.com”]
 
 
 # Application definition
