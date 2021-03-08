@@ -1,1 +1,26 @@
-{% extends "base.html" %} {% block title %} Servicios {% endblock %}{% block content %} Texto cambiante desde servicios {% endblock %}
+{% extends "base.html" %} {% block title %} Servicios {% endblock %}{% block content %} 
+
+<div class="container-sm p-3 my-3 bg-primary text-white">
+
+    <div class="d-flex justify-content-center align-items-center container ">
+
+        <div class="row ">
+                <html>
+                <head>
+                <body>
+                    <div class="form-group" style="width:170px;">
+                        <p><h6>¿Estas buscando gente trabajadora? Busca el servicio que necesitas<a href="{% url 'servicios' %}"style="color:#FFFFFF;" ></h6></a></p>
+                    <form action="/buscar/"method="GET">
+                        <input type="text" name="bus">
+                        <input type="submit" value="Buscar">
+                    </form>
+                    </div>
+                </head>
+                </body>
+                </html>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

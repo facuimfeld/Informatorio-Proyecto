@@ -1,0 +1,23 @@
+{% extends "base.html" %} {% block title %} Resultado de busqueda {% endblock %}{% block content %} 
+ <html>
+ <body>
+ <p>Estas buscando: <strong> {{query}} </strong> </p>
+
+ {% if busqueda %}
+
+    <p>Los servicios encontrados son: {{busqueda|length}} servicios </p>
+
+    <ul>
+        {% for buscar in busqueda %}
+            <li> 
+               {{busqueda.servicio}}
+            </li>
+        {% endfor %}
+    </ul>
+ {% else %}
+    <p>No esta ese servicio que buscas</p>
+ {% endif %}
+ </body>
+
+ </html>
+{% endblock %}
